@@ -4,13 +4,14 @@ const translations = {
     navHome: "Home",
     navServices: "Services",
     navAbout: "About",
-    navContact: "Contact Me",
+    navContact: "Contact",
     bookConsultation: "Book Consultation",
+    loaderText: "Preparing your consultation experience",
     heroEyebrow: "Licensed in the United States and Colombia",
     heroTitle: "Refined immigration advocacy with direct attorney attention.",
     heroText:
       "Chavarro Law provides bilingual representation in family-based immigration and removal defense with calm strategy, personal care, and clear communication at every stage.",
-    meetAttorney: "Meet The Attorney",
+    meetAttorney: "Meet The Firm",
     note1Label: "Practice",
     note1Value: "Family Immigration",
     note2Label: "Defense",
@@ -18,8 +19,8 @@ const translations = {
     note3Label: "Languages",
     note3Value: "Spanish, English, Italian, Portuguese",
     monogramTitle: "Danilo Chavarro Law",
-    heroCardLabel: "Direct representation",
-    heroCardTitle: "One attorney guiding your matter with precision, discretion, and personal care.",
+    heroCardLabel: "Firm approach",
+    heroCardTitle: "Chavarro Law delivers strategic immigration counsel with precision, discretion, and responsive client service.",
     heroStatCaption: "Licensed in two countries",
     servicesEyebrow: "Practice Areas",
     servicesTitle: "Focused legal work for life-changing immigration matters.",
@@ -36,9 +37,9 @@ const translations = {
     service4Text:
       "Step-by-step guidance for lawful permanent residents moving toward citizenship.",
     aboutEyebrow: "About",
-    aboutTitle: "Danilo Chavarro-Orozco, Esq., LL.M, M.PHIL.",
+    aboutTitle: "Danilo Chavarro, Esq., LL.M, M.PHIL.",
     aboutText1:
-      "Danilo Chavarro-Orozco focuses his practice on Family-Based Immigration and Removal Defense and is licensed in the United States and Colombia.",
+      "Danilo Chavarro focuses his practice on Family-Based Immigration and Removal Defense and is licensed in the United States and Colombia.",
     aboutText2:
       "He earned an LL.M in U.S. Law from Temple University Beasley School of Law in Philadelphia and, after admission to the Pennsylvania Bar, served as a law clerk in the Philadelphia Court of Common Pleas for the First Judicial District of Pennsylvania.",
     aboutText3:
@@ -86,10 +87,10 @@ const translations = {
       "\"I had a complicated immigration situation and DANILO CHAVARRO LAW guided me throughout the entire process until successfully getting my permanent residence.\"",
     testimonial4Name: "Jean",
     testimonial4Country: "Haiti",
-    contactEyebrow: "Contact Me",
-    contactTitle: "Begin with a clear conversation.",
+    contactEyebrow: "Contact",
+    contactTitle: "Connect with Chavarro Law.",
     contactText:
-      "Reach out for consultations, family immigration guidance, or removal defense support.",
+      "Contact the firm for consultations, family immigration guidance, or removal defense support.",
     contactPhoneLabel: "Phone",
     contactEmailLabel: "Email",
     contactHoursLabel: "Office Hours",
@@ -105,20 +106,23 @@ const translations = {
     sendMessage: "Send Message",
     formNote: "The form opens your email app with the message pre-filled.",
     formOpened: "Your email application opened with the message ready to send.",
-    bookingPlaceholder: "Update the Calendly link in the index.html config to activate live appointment booking."
+    bookingPlaceholder: "Update the Calendly link in the index.html config to activate live appointment booking.",
+    mobileCall: "Call",
+    mobileBook: "Book"
   },
   es: {
     brandSubtitle: "Inmigracion Familiar y Defensa Contra Deportacion",
     navHome: "Inicio",
     navServices: "Servicios",
     navAbout: "Acerca de",
-    navContact: "Contacteme",
+    navContact: "Contacto",
     bookConsultation: "Reservar Consulta",
+    loaderText: "Preparando su experiencia de consulta",
     heroEyebrow: "Licenciado en Estados Unidos y Colombia",
     heroTitle: "Defensa migratoria refinada con atencion directa del abogado.",
     heroText:
       "Chavarro Law ofrece representacion bilingue en inmigracion familiar y defensa contra deportacion con estrategia serena, atencion personal y comunicacion clara en cada etapa.",
-    meetAttorney: "Conozca Al Abogado",
+    meetAttorney: "Conozca La Firma",
     note1Label: "Practica",
     note1Value: "Inmigracion Familiar",
     note2Label: "Defensa",
@@ -126,8 +130,8 @@ const translations = {
     note3Label: "Idiomas",
     note3Value: "Espanol, ingles, italiano, portugues",
     monogramTitle: "Danilo Chavarro Law",
-    heroCardLabel: "Representacion directa",
-    heroCardTitle: "Un abogado guiando su caso con precision, discrecion y atencion personal.",
+    heroCardLabel: "Enfoque de la firma",
+    heroCardTitle: "Chavarro Law ofrece asesoria migratoria estrategica con precision, discrecion y servicio atento al cliente.",
     heroStatCaption: "Licenciado en dos paises",
     servicesEyebrow: "Areas De Practica",
     servicesTitle: "Trabajo legal enfocado para asuntos migratorios que cambian vidas.",
@@ -144,9 +148,9 @@ const translations = {
     service4Text:
       "Orientacion paso a paso para residentes permanentes listos para avanzar hacia la ciudadania.",
     aboutEyebrow: "Acerca de",
-    aboutTitle: "Danilo Chavarro-Orozco, Esq., LL.M, M.PHIL.",
+    aboutTitle: "Danilo Chavarro, Esq., LL.M, M.PHIL.",
     aboutText1:
-      "Danilo Chavarro-Orozco concentra su practica en inmigracion familiar y defensa contra deportacion y esta licenciado en Estados Unidos y Colombia.",
+      "Danilo Chavarro concentra su practica en inmigracion familiar y defensa contra deportacion y esta licenciado en Estados Unidos y Colombia.",
     aboutText2:
       "Obtuvo un LL.M en Derecho de Estados Unidos en Temple University Beasley School of Law en Filadelfia y, tras su admision al Pennsylvania Bar, sirvio como law clerk en la Philadelphia Court of Common Pleas del First Judicial District of Pennsylvania.",
     aboutText3:
@@ -194,10 +198,10 @@ const translations = {
       "\"Tuve una situacion migratoria complicada y DANILO CHAVARRO LAW me guio durante todo el proceso hasta lograr exitosamente mi residencia permanente.\"",
     testimonial4Name: "Jean",
     testimonial4Country: "Haiti",
-    contactEyebrow: "Contacteme",
-    contactTitle: "Comience con una conversacion clara.",
+    contactEyebrow: "Contacto",
+    contactTitle: "Conecte con Chavarro Law.",
     contactText:
-      "Escriba para consultas, orientacion en inmigracion familiar o apoyo en defensa contra deportacion.",
+      "Comuniquese con la firma para consultas, orientacion en inmigracion familiar o apoyo en defensa contra deportacion.",
     contactPhoneLabel: "Telefono",
     contactEmailLabel: "Correo Electronico",
     contactHoursLabel: "Horario",
@@ -213,19 +217,23 @@ const translations = {
     sendMessage: "Enviar Mensaje",
     formNote: "El formulario abre su aplicacion de correo con el mensaje preparado.",
     formOpened: "Su aplicacion de correo se abrio con el mensaje listo para enviar.",
-    bookingPlaceholder: "Actualice el enlace de Calendly en la configuracion de index.html para activar las reservas reales."
+    bookingPlaceholder: "Actualice el enlace de Calendly en la configuracion de index.html para activar las reservas reales.",
+    mobileCall: "Llamar",
+    mobileBook: "Reservar"
   }
 };
 
 const config = window.CHAVARRO_LAW_CONFIG || {};
 const bookingUrl = config.bookingUrl || "https://calendly.com/your-calendly-link";
 const contactEmail = config.contactEmail || "hello@chavarrolaw.com";
+const body = document.body;
 const languageToggle = document.getElementById("languageToggle");
 const translatableNodes = document.querySelectorAll("[data-i18n]");
 const contactForm = document.getElementById("contactForm");
 const formStatus = document.getElementById("formStatus");
 const bookingLink = document.getElementById("bookingLink");
 const bookingFrame = document.querySelector(".calendar-frame iframe");
+const loader = document.getElementById("siteLoader");
 
 let currentLanguage = "en";
 
@@ -277,6 +285,10 @@ function initializeReveal() {
 }
 
 function initializeTilt() {
+  if (window.matchMedia("(pointer: coarse)").matches) {
+    return;
+  }
+
   const panels = document.querySelectorAll(".monogram-card, .detail-card, .service-card, .credential-card");
 
   panels.forEach((panel) => {
@@ -299,6 +311,27 @@ function initializeTilt() {
       panel.style.transform = "";
     });
   });
+}
+
+function initializeOpening() {
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    body.classList.remove("is-loading");
+    body.classList.add("is-ready");
+    return;
+  }
+
+  const finishOpening = () => {
+    body.classList.remove("is-loading");
+    body.classList.add("is-ready");
+
+    window.setTimeout(() => {
+      if (loader) {
+        loader.remove();
+      }
+    }, 760);
+  };
+
+  window.setTimeout(finishOpening, 1350);
 }
 
 languageToggle.addEventListener("click", () => {
@@ -333,6 +366,7 @@ initializeLanguage();
 initializeBooking();
 initializeReveal();
 initializeTilt();
+initializeOpening();
 
 if (bookingUrl.includes("your-calendly-link")) {
   bookingLink.addEventListener("click", (event) => {
