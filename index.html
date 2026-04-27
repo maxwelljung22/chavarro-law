@@ -16,7 +16,16 @@
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body>
+  <body class="is-loading">
+    <div class="site-loader" id="siteLoader" aria-hidden="true">
+      <div class="loader-mark">
+        <span class="loader-d">D</span>
+        <span class="loader-c">C</span>
+      </div>
+      <p class="loader-title">Chavarro Law</p>
+      <p class="loader-subtitle" data-i18n="loaderText">Preparing your consultation experience</p>
+    </div>
+
     <div class="site-background" aria-hidden="true">
       <div class="bg-orb bg-orb-one"></div>
       <div class="bg-orb bg-orb-two"></div>
@@ -40,7 +49,7 @@
           <a href="#home" data-i18n="navHome">Home</a>
           <a href="#services" data-i18n="navServices">Services</a>
           <a href="#about" data-i18n="navAbout">About</a>
-          <a href="#contact" data-i18n="navContact">Contact Me</a>
+          <a href="#contact" data-i18n="navContact">Contact</a>
         </nav>
 
         <div class="header-actions">
@@ -72,7 +81,7 @@
                 Book Consultation
               </a>
               <a class="button button-secondary" href="#about" data-i18n="meetAttorney">
-                Meet The Attorney
+                Meet The Firm
               </a>
             </div>
             <div class="hero-notes">
@@ -105,9 +114,10 @@
 
             <div class="hero-detail-row">
               <article class="detail-card luxury-panel">
-                <span class="card-label" data-i18n="heroCardLabel">Direct representation</span>
+                <span class="card-label" data-i18n="heroCardLabel">Firm approach</span>
                 <p class="hero-card-title" data-i18n="heroCardTitle">
-                  One attorney guiding your matter with precision, discretion, and personal care.
+                  Chavarro Law delivers strategic immigration counsel with precision, discretion,
+                  and responsive client service.
                 </p>
               </article>
 
@@ -167,12 +177,12 @@
           <div class="about-panel luxury-panel reveal">
             <div class="section-heading compact-heading">
               <p class="eyebrow" data-i18n="aboutEyebrow">About</p>
-              <h2 data-i18n="aboutTitle">Danilo Chavarro-Orozco, Esq., LL.M, M.PHIL.</h2>
+              <h2 data-i18n="aboutTitle">Danilo Chavarro, Esq., LL.M, M.PHIL.</h2>
             </div>
 
             <div class="about-bio">
               <p class="about-text" data-i18n="aboutText1">
-                Danilo Chavarro-Orozco focuses his practice on Family-Based Immigration and Removal
+                Danilo Chavarro focuses his practice on Family-Based Immigration and Removal
                 Defense and is licensed in the United States and Colombia.
               </p>
               <p class="about-text" data-i18n="aboutText2">
@@ -331,11 +341,12 @@
         <section class="section contact-section" id="contact">
           <div class="contact-copy reveal">
             <div class="section-heading compact-heading">
-              <p class="eyebrow" data-i18n="contactEyebrow">Contact Me</p>
-              <h2 data-i18n="contactTitle">Begin with a clear conversation.</h2>
+              <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
+              <h2 data-i18n="contactTitle">Connect with Chavarro Law.</h2>
             </div>
             <p class="section-text" data-i18n="contactText">
-              Reach out for consultations, family immigration guidance, or removal defense support.
+              Contact the firm for consultations, family immigration guidance, or removal defense
+              support.
             </p>
 
             <div class="contact-details luxury-panel">
@@ -388,6 +399,15 @@
           </form>
         </section>
       </main>
+    </div>
+
+    <div class="mobile-cta-bar">
+      <a class="button button-secondary" href="tel:+12154160898" data-i18n="mobileCall">
+        Call
+      </a>
+      <a class="button button-primary" href="#booking" data-i18n="mobileBook">
+        Book
+      </a>
     </div>
 
     <script>
