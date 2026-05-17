@@ -80,11 +80,11 @@ const translations = {
     testimonial2Name: "Luis Gregorio",
     testimonial2Country: "Dominican Republic",
     testimonial3Quote:
-      "\"It was a pleasure working with the DANILO CHAVARRO LAW firm. The immigration world is very scary and they made it much more manageable for me and won my case.\"",
+      "\"It was a pleasure working with the CHAVARRO LAW firm. The immigration world is very scary and they made it much more manageable for me and won my case.\"",
     testimonial3Name: "Miguel",
     testimonial3Country: "Honduras",
     testimonial4Quote:
-      "\"I had a complicated immigration situation and DANILO CHAVARRO LAW guided me throughout the entire process until successfully getting my permanent residence.\"",
+      "\"I had a complicated immigration situation and CHAVARRO LAW guided me throughout the entire process until successfully getting my permanent residence.\"",
     testimonial4Name: "Jean",
     testimonial4Country: "Haiti",
     contactEyebrow: "Contact",
@@ -191,11 +191,11 @@ const translations = {
     testimonial2Name: "Luis Gregorio",
     testimonial2Country: "Republica Dominicana",
     testimonial3Quote:
-      "\"Fue un placer trabajar con la firma DANILO CHAVARRO LAW. El mundo migratorio da mucho miedo y ellos hicieron que todo fuera mucho mas manejable para mi y ganaron mi caso.\"",
+      "\"Fue un placer trabajar con la firma CHAVARRO LAW. El mundo migratorio da mucho miedo y ellos hicieron que todo fuera mucho mas manejable para mi y ganaron mi caso.\"",
     testimonial3Name: "Miguel",
     testimonial3Country: "Honduras",
     testimonial4Quote:
-      "\"Tuve una situacion migratoria complicada y DANILO CHAVARRO LAW me guio durante todo el proceso hasta lograr exitosamente mi residencia permanente.\"",
+      "\"Tuve una situacion migratoria complicada y CHAVARRO LAW me guio durante todo el proceso hasta lograr exitosamente mi residencia permanente.\"",
     testimonial4Name: "Jean",
     testimonial4Country: "Haiti",
     contactEyebrow: "Contacto",
