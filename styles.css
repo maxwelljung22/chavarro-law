@@ -81,14 +81,7 @@ body.is-ready .site-loader {
 }
 
 .loader-mark::after {
-  content: "";
-  position: absolute;
-  left: 14%;
-  right: 14%;
-  bottom: 22px;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(222, 193, 132, 0.96), transparent);
-  transform: rotate(-6deg);
+  display: none;
 }
 
 .loader-d,
